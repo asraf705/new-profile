@@ -80,6 +80,10 @@ body::-webkit-scrollbar-thumb {
 
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
 }
@@ -497,6 +501,31 @@ header {
 }
 
 .work_img img:hover {
+  transform: scale(1.2);
+}
+
+/*photo*/
+.photo {
+  text-align: center;
+}
+
+.work_container {
+  row-gap: 2rem;
+}
+
+.photo_img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  max-height: 442px;
+}
+
+.photo_img img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.photo_img img:hover {
   transform: scale(1.2);
 }
 
