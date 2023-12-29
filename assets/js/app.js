@@ -104,4 +104,4 @@ document.body.classList.toggle("dark");
 document.getElementById("head").classList.toggle("dark");
 
 /*Particles.js*/
-particlesJS.load("particles-js", "assets/particles.json");
+particlesJS.load("particles-js", "assets/js/particles.js");
