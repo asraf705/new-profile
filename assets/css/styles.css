@@ -382,9 +382,9 @@ header {
 
 .home_img {
   position: absolute;
-  right: 0;
-  bottom: 12%;
-  width: 255px;
+  right: 10px;
+  bottom: 25%;
+  width: 260px;
 }
 
 /*Buttons*/
@@ -696,4 +696,12 @@ header {
     right: 10px;
     top: 10px;
   }
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
