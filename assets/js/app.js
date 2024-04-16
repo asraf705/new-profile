@@ -57,7 +57,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 var app = document.getElementById("autoWrite");
 
 var typewriter = new Typewriter(app, {
-  strings: ["Student", "Laravel Developer", "Python Developer", "Photographer","Traveler"],
+  strings: ["Student", "Software Developer", "Photographer", "Traveler"],
   loop: true,
   autoStart: true,
 });
